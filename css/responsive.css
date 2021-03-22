@@ -1,0 +1,51 @@
+@media (max-width: 576px) {
+  .header {
+    height: 72px;
+    padding-left: 19px;
+    padding-right: 16px;
+  }
+
+  .header__logo {
+    width: 157px;
+    height: 42px;
+    margin-left: 25px;
+  }
+
+  .cart {
+    margin-bottom: 2px;
+  }
+
+  .main {
+    margin-top: 59px;
+  }
+
+  .pastries {
+    grid-template-columns: 1fr;
+    width: 325px;
+    gap: 33px;
+    margin: 32px auto;
+  }
+
+  .pastry {
+    width: 325px;
+    height: 520px;
+    padding: 17px;
+  }
+
+  .pastry__image {
+    width: 291px;
+    height: 292px;
+  }
+
+  .pastry__ingredients {
+    margin-top: 10px;
+    margin-bottom: 17px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1200px) {
+  .pastries {
+    grid-template-columns: 1fr 1fr;
+    width: 550px;
+  }
+}
